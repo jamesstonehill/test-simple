@@ -1,9 +1,3 @@
-var testSimple = require('lib/testingLogic.js');
-
-function returnTen() {
-  return 10;
-}
-
 console.log("---------- passing tests ---------");
 
 test("it returns ten",
