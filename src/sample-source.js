@@ -1,7 +1,13 @@
-function returnTen() {
-  return 10;
-}
 
-function randomInt() {
-  Math.floor((Math.random() * 10) + 1)
-}
+var num = 111;
+
+beforeEach( function () {
+  num = 1;
+  num += 1;
+});
+
+context( 'num', function() {
+  it('checks the value of num', function() {
+    expect(num).toEqual(2);
+  });
+});
