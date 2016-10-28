@@ -1,13 +1,12 @@
+function plusFive(number) {
+  return number + 5;
+}
 
-var num = 111;
-
-beforeEach( function () {
-  num = 1;
-  num += 1;
-});
-
-context( 'num', function() {
-  it('checks the value of num', function() {
-    expect(num).toEqual(2);
-  });
-});
+function isPrime(number) {
+    for(var i = 2; i < number; i++) {
+        if(number % i === 0) {
+            return false;
+        }
+    }
+    return number > 1;
+}
