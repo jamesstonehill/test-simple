@@ -42,5 +42,4 @@ context('beforeEach examples', function() {
       });
     });
   });
-  
 });
